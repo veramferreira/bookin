@@ -1,5 +1,7 @@
 export default function Footer() {
     return (
-        <h2 className=" text-red-600">Footer</h2>
+        <footer>
+            <h4>Developed with ❤️ by Vera</h4>
+        </footer>
     )
 }
