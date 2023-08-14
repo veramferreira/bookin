@@ -1,5 +1,11 @@
 export default function Header() {
     return (
-        <h1 className=" bg-red-700">Header</h1>
-    )
+<nav className="nav">
+    <ul className="nav--menu">
+        <li> <a href="#">my books</a></li>
+        <li> <a href="#">add book</a></li>
+        <li> <a href="#">get inspired</a></li>
+        <li> <a href="#">randomize</a></li>
+    </ul>
+</nav>    )
 }

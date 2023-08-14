@@ -1,15 +1,14 @@
-import './App.css'
-import Footer from './components/Footer'
-import Header from './components/Header'
+import "./index.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
-
   return (
-    <>
-    <Header />
-    <Footer />
-    </>
-  )
+    <section className="app">
+      <Header />
+      <Footer />
+    </section>
+  );
 }
 
-export default App
+export default App;
