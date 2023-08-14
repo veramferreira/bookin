@@ -20,8 +20,8 @@
   --dark--pink: #e46e63;
   --light-pink: #e49787;
 
-  --karla-font: 'Karla', sans-serif;
-  --rubik--font: 'Rubik', sans-serif;
+  --karla-font: "Karla", sans-serif;
+  --rubik--font: "Rubik", sans-serif;
 }
 
 ul {
@@ -40,13 +40,16 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  background-color: orange;
+  background-color: var(--dark-blue);
   font: var(--karla-font);
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 4rem;
+  font: "Rubik", sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 900;
 }
 
 button {
@@ -73,6 +76,7 @@ button:focus-visible {
 .nav {
   background-color: var(--dark--pink);
   padding: 20px 25px;
+  border-bottom: 2px solid white;
 }
 .nav--menu {
   display: flex;
